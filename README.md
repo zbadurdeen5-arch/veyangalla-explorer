@@ -1,4 +1,4 @@
-VEYANGALLA EXPLORER
+## VEYANGALLA EXPLORER
 
 ### A Local Tourism and One-Day Trip Planning Web Application
 
@@ -49,7 +49,7 @@ This project was developed as an academic project using PHP and MySQL. The trip 
 
 ## Author
 
-**[Your Name]**  
-BIT Degree Programme  
+**Zeinab MBF**  
+     BIT  
 University of Moratuwa
-Zeinab MBF
+
