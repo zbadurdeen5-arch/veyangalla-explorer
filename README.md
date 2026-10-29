@@ -1,63 +1,55 @@
 VEYANGALLA EXPLORER
 
-A Local Tourism and One-Day Trip Planning Web Application
+### A Local Tourism and One-Day Trip Planning Web Application
 
-About the Project
+## About the Project
 
-VEYANGALLA EXPLORER is a web application designed to help users discover local tourist attractions and plan one-day trips.
+VEYANGALLA EXPLORER is a web application developed as an academic project to help users discover local tourist attractions and organize a one-day visit. It provides attraction information, search and category filtering, map directions, and a temporary trip planner.
 
-Main Features
+## Main Features
 
-View tourist attractions and their details.
+- Browse local tourist attractions.
+- Search for attractions and filter them by category.
+- View attraction descriptions, opening times, distances, and travel tips.
+- Access map directions to attractions.
+- Add or remove attractions from a temporary one-day trip plan.
+- Access the About and Contact pages.
+- Admin login and dashboard for managing attraction records.
+- Add, edit, and delete attraction records through the admin interface.
 
-Search and explore attractions.
+## Technologies Used
 
-View attraction categories and information.
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- PHP
+- MySQL
+- XAMPP
+- Visual Studio Code
 
-Add attractions to a trip plan.
+## Local Setup
 
-Access contact and about pages.
+1. Install XAMPP.
+2. Copy the project folder into `C:\xampp\htdocs\`.
+3. Start Apache and MySQL from the XAMPP Control Panel.
+4. Create a MySQL database named `veyangalla_explorer` using phpMyAdmin.
+5. Import the project's SQL database file, if provided.
+6. Copy `Config/database.example.php` to `Config/database.php`.
+7. Update the database credentials in `Config/database.php` to match your local environment.
+8. Open `http://localhost/veyangalla_explorer/` in your browser.
 
-Admin dashboard to manage attractions.
+## Database Configuration
 
-Technologies Used
+The file `Config/database.example.php` provides an example database configuration. Copy it to `Config/database.php` and update the connection settings before running the application. The actual local configuration file should not be uploaded to a public repository.
 
-HTML
+## Project Status
 
-CSS
+This project was developed as an academic project using PHP and MySQL. The trip planner maintains a temporary plan during the session and does not permanently save plans to user accounts.
 
-JavaScript
+## Author
 
-Bootstrap
-
-PHP
-
-MySQL
-
-XAMPP
-
-Visual Studio Code
-
-Local Setup
-
-Install XAMPP.
-
-Copy the project folder into C:\xampp\htdocs\.
-
-Create a MySQL database named veyangalla_explorer.
-
-Configure your database connection in Config/database.php.
-
-Start Apache and MySQL in XAMPP.
-
-Open http://localhost/veyangalla_explorer/ in your browser.
-
-Database configuration: Copy Config/database.example.php to Config/database.php and update the database credentials for your local environment.
-
-Project Status
-
-This project was developed as an academic project using PHP and MySQL.
-
-Author
-
+**[Your Name]**  
+BIT Degree Programme  
+University of Moratuwa
 Zeinab MBF
